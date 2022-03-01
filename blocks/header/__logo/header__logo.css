@@ -1,16 +1,9 @@
 .header__logo {
-  background-image: url(../../../images/header-logo.svg);
-  background-size: 176px 52px;
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
 }
-
 
 @media screen and (max-width: 767px) {
   .header__logo {
-    background-image: url(../../../images/header-logo.svg);
-    background-size: 142px 42px;
-    width: 142px;
-    height: 42px;
+    max-width: 142px;
   }
 }

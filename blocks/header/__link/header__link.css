@@ -1,4 +1,4 @@
-.lang__link {
+.header__link {
   color: #ffffff;
   text-decoration: none;
   font-size: 24px;
@@ -7,13 +7,12 @@
   transition: opacity 0.4s linear;
 }
 
-.lang__link:hover {
-  text-decoration: underline;
+.header__link:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
-  .lang__link {
+  .header__link {
     font-size: 18px;
     line-height: 1.1;
   }
