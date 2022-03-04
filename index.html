@@ -11,7 +11,7 @@
 
 <body class="page">
   <header class="header">
-    <img src="./images/header-logo.svg" alt="векторное изображение територии России" class="header__logo">
+    <a href="#" class="header__logo"></a>
     <ul class="header__list">
       <li><a href="#" class="header__link header__link_active">Ru</a></li>
       <li><a href="#" class="header__link">En</a></li>
@@ -48,20 +48,25 @@
       </ul>
     </section>
 
-    <article class="photo-grid">
-      <img src="./images/photo-grid-train.jpg" alt="окно поезда" class="photo-grid__item">
-      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="горы в облаках" class="photo-grid__item">
-      <img src="./images/photo-grid-tuman.jpg" alt="туман в поле" class="photo-grid__item">
-      <img src="./images/photo-grid-sochi.jpg" alt="туман в лесу" class="photo-grid__item">
-      <img src="./images/photo-grid-arisa.jpg" alt="колесо машины на льду" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal.jpg" alt="береговая линия озера Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-elbrus.jpg" alt="гора Эльбрус" class="photo-grid__item">
-      <img src="./images/photo-grid-kondratiev.jpg" alt="фото знака пешеходного перехода" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-1.jpg" alt="горы в облаках" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-2.jpg" alt="гора" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal-2.jpg" alt="горы на берегу озера Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-ergaki.jpg" alt="туман в горах" class="photo-grid__item">
-    </article>
+    <section class="photo-grid">
+      <ul class="photo-grid__list">
+        <li><img src="./images/photo-grid-train.jpg" alt="окно поезда" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-atharva-tulsi.jpg" alt="горы в облаках" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-tuman.jpg" alt="туман в поле" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-sochi.jpg" alt="туман в лесу" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-arisa.jpg" alt="колесо машины на льду" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-baikal.jpg" alt="береговая линия озера Байкал" class="photo-grid__item">
+        </li>
+        <li><img src="./images/photo-grid-elbrus.jpg" alt="гора Эльбрус" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-kondratiev.jpg" alt="фото знака пешеходного перехода"
+            class="photo-grid__item"> </li>
+        <li><img src="./images/photo-grid-kamchatka-1.jpg" alt="горы в облаках" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-kamchatka-2.jpg" alt="гора" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid-baikal-2.jpg" alt="горы на берегу озера Байкал" class="photo-grid__item">
+        </li>
+        <li><img src="./images/photo-grid-ergaki.jpg" alt="туман в горах" class="photo-grid__item"></li>
+      </ul>
+    </section>
 
     <section class="place">
       <ul class="place__list">
@@ -155,30 +160,30 @@
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-          <p class="place__paragraph"></p>
         </li>
       </ul>
     </section>
 
-    <section class="big-link">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover">
+    <section class="cover">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__item">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.
         </p>
-        <img src="./images/cover-trains.jpg" alt="поезда" class="cover__background">
       </a>
     </section>
   </main>
 
   <footer class="footer">
-    <ul class="footer__list">
-      <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
-      <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
-      <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
-      <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
-      <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
-    </ul>
+    <nav>
+      <ul class="footer__list">
+        <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
+        <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
+        <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
+        <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
+        <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
+      </ul>
+    </nav>
     <p class="footer__copyright"> &copy; 2022. Баум Максим</p>
   </footer>
 </body>

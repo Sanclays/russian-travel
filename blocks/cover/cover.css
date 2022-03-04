@@ -1,47 +1,24 @@
 .cover {
-  text-decoration: none;
-  color: #ffffff;
-  width: 100%;
-  min-height: 740px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  z-index: 0;
-}
-
-.cover::before {
-  content: '';
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,1);
-  opacity: 0.3;
-  transition: opacity 0.5s linear;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
+  cursor: pointer;
+  width: calc(100% - 48px*2);
+  margin: 92px auto 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
-    min-height: 640px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    min-height: 480px;
+    margin-top: 90px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    min-height: 200px;
+    margin-top: 66px;
   }
 }
